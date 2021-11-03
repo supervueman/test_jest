@@ -40,7 +40,7 @@ describe('Lodash: groupBy', () => {
     expect(_.groupBy).not.toBeUndefined()
   })
 
-  test('should group aaray items by Math.floor', () => {
+  test('should group array items by Math.floor', () => {
     const array = [2.2, 2.4, 4.2, 3.1]
     const result = {
       2: [2.2, 2.4],
@@ -51,7 +51,7 @@ describe('Lodash: groupBy', () => {
     expect(_.groupBy(array, Math.floor)).toEqual(result)
   })
 
-  test('should group aaray items by length', () => {
+  test('should group array items by length', () => {
     const array = ['one', 'two', 'three']
     const result = {
       3: ['one', 'two'],
