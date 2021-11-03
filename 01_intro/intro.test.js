@@ -21,5 +21,10 @@ describe('Sum function', () => {
 describe('Native null function', () => {
   test('Native null should return false value null', () => {
     expect(naitveNull()).toBe(null);
+    expect(naitveNull()).toBeNull();
+    expect(naitveNull()).toBeFalsy();
+    expect(naitveNull()).toBeDefined();
+    expect(naitveNull()).not.toBeTruthy();
+    expect(naitveNull()).not.toBeUndefined();
   })
 })
