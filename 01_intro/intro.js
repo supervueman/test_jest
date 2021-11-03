@@ -14,4 +14,6 @@ const sum = (a, b) => a + b
 
 const naitveNull = () => null
 
-expect(sum(41, 1)).toBe(42)
+module.exports = { sum, naitveNull }
+
+// expect(sum(41, 1)).toBe(42)
